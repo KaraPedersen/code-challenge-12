@@ -1,37 +1,48 @@
-const sortByChildren = (charArray) => {
 
-};
+export const containsW = str => /w/.test(str);
 
-const containsW = (str) => {
 
-};
 
-const isNum = (input) => {
 
-};
 
-const containsWorld = (input) => {
 
-};
 
-const isCapitalized = (str) => {
 
-};
 
-const citiesAtoJ = (arr) => {
+// const sortByChildren = (charArray) => {
 
-};
+// };
 
-const matchMonth = (input) => {
+// const containsW = (str) => {
 
-};
+// };
 
-const noPunctuation = str => {
+// const isNum = (input) => {
 
-};
+// };
 
-let hangman = (str) => {
+// const containsW = (input) => {
 
-};
+// };
+
+// const isCapitalized = (str) => {
+
+// };
+
+// const citiesAtoJ = (arr) => {
+
+// };
+
+// const matchMonth = (input) => {
+
+// };
+
+// const noPunctuation = str => {
+
+// };
+
+// let hangman = (str) => {
+
+// };
 
 
