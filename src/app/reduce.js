@@ -2,6 +2,13 @@ const toLastNames = people => {
 
 };
 
+export function addValues(arr) {
+
+  return arr.reduce((arr, curr) => {
+    return arr + curr;
+  }, 0);
+}
+
 // CHALLENGE 1 - Review
 // Write a function that iterates over an array of people objects and creates a new list of each person's full name using the array method 'map'. Each object will have the shape {firstName:string, lastName:string} Note the space in between first and last names. You can assume that neither firstName nor lastName will be blank
 
